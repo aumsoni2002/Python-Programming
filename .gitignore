@@ -1,0 +1,50 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (the Python equivalent of node_modules)
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# JetBrains Academy/Udemy course metadata and provided answer material
+.agents/
+course-info.yaml
+course-remote-info.yaml
+**/lesson-info.yaml
+**/lesson-remote-info.yaml
+**/task-info.yaml
+**/task-remote-info.yaml
+**/task.md
+**/solution.py
+
+# Course-provided reference documents
+Day 16/*.pdf
