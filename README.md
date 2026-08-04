@@ -1,32 +1,72 @@
 # Python Programming
 
-My Python learning projects and exercises from Days 1–22 of the
-*100 Days of Code: The Complete Python Pro Bootcamp* course.
+I am learning Python and using this repository to document my progress. It
+contains exercises and projects from Day 1 through Day 22.
 
-## Repository structure
+## What I have learned so far
 
-Each `Day ...` directory contains the Python source code and supporting assets
-for that day's exercises or project. Days 20 and 21 share the `Day 20_21`
-directory because they are two parts of the same Snake game project.
+- Variables, data types, strings, and mathematical operations
+- User input, type conversion, and number manipulation
+- Conditional statements and logical operators
+- Lists, dictionaries, and nested data structures
+- `for` and `while` loops
+- Functions, parameters, return values, and scope
+- Debugging and problem-solving techniques
+- Randomization and working with Python modules
+- Object-oriented programming with classes and objects
+- Event listeners and graphical programs using Turtle
+- Breaking larger programs into multiple Python files
 
-## Running a project
+## Featured projects
 
-1. Install a current version of Python 3.
-2. Open a terminal in the project directory you want to run.
-3. Run its entry point, usually:
+### Pong Game - Day 22
 
-   ```powershell
-   python main.py
-   ```
+A two-player Pong game built with Turtle. It includes paddle controls, ball
+movement, collision detection, scoring, and gradually increasing ball speed.
 
-Some early exercises use `task.py` instead of `main.py`. Turtle projects open
-a desktop window and therefore need a graphical environment.
+Navigate to [`Day 22`](Day%2022/) to see the project.
 
-Virtual environments, Python cache files, IDE settings, and course-provided
-solutions are intentionally excluded from this repository.
+### Snake Game - Days 20 and 21
 
-## Acknowledgment
+The classic Snake game, organized into separate classes for the snake, food,
+and scoreboard. The snake grows when it eats food, and the score updates as the
+game progresses.
 
-Projects are based on exercises from Angela Yu's *100 Days of Code* course.
-This repository contains my learning work and is not an official course
-repository.
+Navigate to [`Day 20_21`](Day%2020_21/) to see the project.
+
+### Quiz Game - Day 17
+
+An object-oriented quiz application that stores questions as objects, checks
+the player's answers, and keeps track of the score.
+
+Navigate to [`Day 17/quiz-game-start`](Day%2017/quiz-game-start/) to see the
+project.
+
+### Coffee Machine - Days 15 and 16
+
+A coffee-machine simulation that handles drink selection, resources, payments,
+and change. Day 16 rebuilds the program using object-oriented programming.
+
+Navigate to [`Day 15/Coffee Machine Project`](Day%2015/Coffee%20Machine%20Project/)
+or [`Day 16/oop-coffee-machine-start`](Day%2016/oop-coffee-machine-start/).
+
+### Higher or Lower - Day 14
+
+A comparison game where the player guesses which public figure has more
+followers while trying to build a winning streak.
+
+Navigate to [`Day 14/Higher or Lower Project`](Day%2014/Higher%20or%20Lower%20Project/).
+
+### Blackjack - Day 11
+
+A command-line version of Blackjack featuring card dealing, score calculation,
+computer turns, and win-or-lose decisions.
+
+Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
+
+### Other projects
+
+The earlier folders contain projects such as a calculator, blind auction,
+Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
+island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
+[`Day 22`](Day%2022/) folders to follow my progress.
