@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 22.
+contains exercises and projects from Day 1 through Day 23.
 
 ## What I have learned so far
 
@@ -18,6 +18,14 @@ contains exercises and projects from Day 1 through Day 22.
 - Breaking larger programs into multiple Python files
 
 ## Featured projects
+
+### Turtle Crossing Game - Day 23
+
+A Turtle-based road-crossing game where the player avoids moving cars and
+tries to reach the other side. Each successful crossing increases the level
+and makes the cars move faster.
+
+Navigate to [`Day 23`](Day%2023/) to see the project.
 
 ### Pong Game - Day 22
 
@@ -69,4 +77,4 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 22`](Day%2022/) folders to follow my progress.
+[`Day 23`](Day%2023/) folders to follow my progress.
