@@ -48,3 +48,7 @@ course-remote-info.yaml
 
 # Course-provided reference documents
 Day 16/*.pdf
+
+# Generated Day 24 output and practice files
+Day 24/Mail Merge Project/Output/ReadyToSend/
+Day 24/my_file.txt

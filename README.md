@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 23.
+contains exercises and projects from Day 1 through Day 24.
 
 ## What I have learned so far
 
@@ -16,8 +16,20 @@ contains exercises and projects from Day 1 through Day 23.
 - Object-oriented programming with classes and objects
 - Event listeners and graphical programs using Turtle
 - Breaking larger programs into multiple Python files
+- Reading, writing, and appending text files
+- Relative paths, absolute paths, and `pathlib`
+- Saving data between program runs
 
 ## Featured projects
+
+### Mail Merge Project - Day 24
+
+A file-handling project that reads a list of names and a letter template,
+replaces the name placeholder, and saves a personalized letter for every
+recipient.
+
+Navigate to [`Day 24/Mail Merge Project`](Day%2024/Mail%20Merge%20Project/) to
+see the project.
 
 ### Turtle Crossing Game - Day 23
 
@@ -37,8 +49,8 @@ Navigate to [`Day 22`](Day%2022/) to see the project.
 ### Snake Game - Days 20 and 21
 
 The classic Snake game, organized into separate classes for the snake, food,
-and scoreboard. The snake grows when it eats food, and the score updates as the
-game progresses.
+and scoreboard. It now saves the high score between program runs and resets
+the game after a collision so the player can keep trying.
 
 Navigate to [`Day 20_21`](Day%2020_21/) to see the project.
 
@@ -77,4 +89,4 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 23`](Day%2023/) folders to follow my progress.
+[`Day 24`](Day%2024/) folders to follow my progress.
