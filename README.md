@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 24.
+contains exercises and projects from Day 1 through Day 25.
 
 ## What I have learned so far
 
@@ -19,8 +19,20 @@ contains exercises and projects from Day 1 through Day 24.
 - Reading, writing, and appending text files
 - Relative paths, absolute paths, and `pathlib`
 - Saving data between program runs
+- Reading and writing CSV files with Python's `csv` module and pandas
+- Working with pandas DataFrames and Series
+- Selecting columns, filtering rows, and analysing tabular data
 
 ## Featured projects
+
+### U.S. States Game - Day 25
+
+An interactive Turtle-based geography game where the player names U.S. states
+and correct answers are written at their map coordinates. When the game ends,
+the states that still need practice are saved to a CSV file.
+
+Navigate to [`Day 25/us-states-game`](Day%2025/us-states-game/) to see the
+project.
 
 ### Mail Merge Project - Day 24
 
@@ -89,4 +101,13 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 24`](Day%2024/) folders to follow my progress.
+[`Day 25`](Day%2025/) folders to follow my progress.
+
+## Day 25 dependency
+
+Day 25 uses pandas for CSV data analysis. Install it from the repository root
+with:
+
+```bash
+python -m pip install -r "Day 25/requirements.txt"
+```
