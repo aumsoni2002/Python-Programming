@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 25.
+contains exercises and projects from Day 1 through Day 26.
 
 ## What I have learned so far
 
@@ -22,8 +22,21 @@ contains exercises and projects from Day 1 through Day 25.
 - Reading and writing CSV files with Python's `csv` module and pandas
 - Working with pandas DataFrames and Series
 - Selecting columns, filtering rows, and analysing tabular data
+- Creating and filtering lists with list comprehensions
+- Creating and filtering dictionaries with dictionary comprehensions
+- Looping through pandas DataFrame rows with `iterrows()`
+- Converting words into NATO phonetic alphabet code words
 
 ## Featured projects
+
+### NATO Phonetic Alphabet - Day 26
+
+A command-line program that reads the NATO phonetic alphabet from a CSV file,
+creates a lookup dictionary with a dictionary comprehension, and converts a
+word entered by the user into its phonetic code words.
+
+Navigate to [`Day 26/NATO-alphabet`](Day%2026/NATO-alphabet/) to see the
+project.
 
 ### U.S. States Game - Day 25
 
@@ -101,12 +114,12 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 25`](Day%2025/) folders to follow my progress.
+[`Day 26`](Day%2026/) folders to follow my progress.
 
-## Day 25 dependency
+## pandas dependency
 
-Day 25 uses pandas for CSV data analysis. Install it from the repository root
-with:
+Days 25 and 26 use pandas for CSV data analysis and DataFrame exercises.
+Install it from the repository root with:
 
 ```bash
 python -m pip install -r "Day 25/requirements.txt"
