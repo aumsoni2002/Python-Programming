@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 26.
+contains exercises and projects from Day 1 through Day 27.
 
 ## What I have learned so far
 
@@ -26,8 +26,22 @@ contains exercises and projects from Day 1 through Day 26.
 - Creating and filtering dictionaries with dictionary comprehensions
 - Looping through pandas DataFrame rows with `iterrows()`
 - Converting words into NATO phonetic alphabet code words
+- Building desktop graphical user interfaces with Tkinter
+- Using labels, buttons, entries, text boxes, and other Tkinter widgets
+- Arranging GUI widgets with `pack()`, `place()`, and `grid()`
+- Connecting buttons and interface events to callback functions
+- Using default arguments, keyword arguments, `*args`, and `**kwargs`
 
 ## Featured projects
+
+### Mile to Kilometre Converter - Day 27
+
+A desktop GUI built with Tkinter that accepts a distance in miles, converts it
+to kilometres, and displays the result when the user clicks the Calculate
+button. The interface uses labels, an entry field, a button callback, padding,
+and the grid layout manager.
+
+Navigate to [`Day 27`](Day%2027/) to see the project and GUI learning files.
 
 ### NATO Phonetic Alphabet - Day 26
 
@@ -114,7 +128,7 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 26`](Day%2026/) folders to follow my progress.
+[`Day 27`](Day%2027/) folders to follow my progress.
 
 ## pandas dependency
 
