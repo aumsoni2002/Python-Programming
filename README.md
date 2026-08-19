@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 27.
+contains exercises and projects from Day 1 through Day 28.
 
 ## What I have learned so far
 
@@ -31,8 +31,20 @@ contains exercises and projects from Day 1 through Day 27.
 - Arranging GUI widgets with `pack()`, `place()`, and `grid()`
 - Connecting buttons and interface events to callback functions
 - Using default arguments, keyword arguments, `*args`, and `**kwargs`
+- Scheduling and cancelling Tkinter events with `after()` and `after_cancel()`
+- Displaying images and text with the Tkinter Canvas widget
+- Managing repeating work and break cycles in a desktop timer
 
 ## Featured projects
+
+### Pomodoro Timer - Day 28
+
+A Tkinter productivity timer that alternates between focused work sessions,
+short breaks, and long breaks. It includes Start and Reset controls, a visual
+countdown over a tomato image, automatic session changes, and checkmarks that
+track completed work sessions.
+
+Navigate to [`Day 28/pomodoro`](Day%2028/pomodoro/) to see the project.
 
 ### Mile to Kilometre Converter - Day 27
 
@@ -128,7 +140,7 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 27`](Day%2027/) folders to follow my progress.
+[`Day 28`](Day%2028/) folders to follow my progress.
 
 ## pandas dependency
 
