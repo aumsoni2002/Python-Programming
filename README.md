@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 28.
+contains exercises and projects from Day 1 through Day 29.
 
 ## What I have learned so far
 
@@ -34,8 +34,21 @@ contains exercises and projects from Day 1 through Day 28.
 - Scheduling and cancelling Tkinter events with `after()` and `after_cancel()`
 - Displaying images and text with the Tkinter Canvas widget
 - Managing repeating work and break cycles in a desktop timer
+- Generating randomized passwords and copying text to the clipboard
+- Validating GUI form input and confirming actions with message boxes
+- Saving password-manager entries to a local text file
 
 ## Featured projects
+
+### Password Manager - Day 29
+
+A Tkinter password manager that generates randomized passwords, copies them to
+the clipboard, validates form entries, asks for confirmation, and saves login
+details locally. The generated credential file is excluded from version control
+to avoid publishing sensitive data.
+
+Navigate to [`Day 29/password-manager`](Day%2029/password-manager/) to see the
+project.
 
 ### Pomodoro Timer - Day 28
 
@@ -140,13 +153,20 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 28`](Day%2028/) folders to follow my progress.
+[`Day 29`](Day%2029/) folders to follow my progress.
 
-## pandas dependency
+## Dependencies
 
 Days 25 and 26 use pandas for CSV data analysis and DataFrame exercises.
 Install it from the repository root with:
 
 ```bash
 python -m pip install -r "Day 25/requirements.txt"
+```
+
+The Day 29 password manager uses pyperclip to copy generated passwords. Install
+it with:
+
+```bash
+python -m pip install -r "Day 29/requirements.txt"
 ```

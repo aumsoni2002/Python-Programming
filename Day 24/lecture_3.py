@@ -12,7 +12,7 @@ KEY POINTS
 - Mode "r" reads a file. It is the default mode.
 - Mode "w" writes to a file and ERASES its old contents first.
 - Mode "a" appends new text to the end without erasing existing text.
-- Opening a missing file in "w" mode creates it.
+- Opening a missing file in "w" or "a" mode creates it.
 - `\n` adds a new line to a string.
 """
 
