@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 29.
+contains exercises and projects from Day 1 through Day 30.
 
 ## What I have learned so far
 
@@ -36,16 +36,19 @@ contains exercises and projects from Day 1 through Day 29.
 - Managing repeating work and break cycles in a desktop timer
 - Generating randomized passwords and copying text to the clipboard
 - Validating GUI form input and confirming actions with message boxes
-- Saving password-manager entries to a local text file
+- Saving, updating, and searching password-manager entries in a local JSON file
+- Handling expected errors with `try`, `except`, `else`, and `finally`
+- Raising exceptions to reject invalid data
+- Reading, writing, and updating structured data with Python's `json` module
 
 ## Featured projects
 
 ### Password Manager - Day 29
 
 A Tkinter password manager that generates randomized passwords, copies them to
-the clipboard, validates form entries, asks for confirmation, and saves login
-details locally. The generated credential file is excluded from version control
-to avoid publishing sensitive data.
+the clipboard, validates form entries, stores login details in JSON, and finds
+saved credentials by website. The generated credential files are excluded from
+version control to avoid publishing sensitive data.
 
 Navigate to [`Day 29/password-manager`](Day%2029/password-manager/) to see the
 project.
@@ -153,7 +156,7 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 29`](Day%2029/) folders to follow my progress.
+[`Day 30`](Day%2030/) folders to follow my progress.
 
 ## Dependencies
 
