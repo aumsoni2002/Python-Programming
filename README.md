@@ -1,7 +1,7 @@
 # Python Programming
 
 I am learning Python and using this repository to document my progress. It
-contains exercises and projects from Day 1 through Day 30.
+contains exercises and projects from Day 1 through Day 31.
 
 ## What I have learned so far
 
@@ -40,8 +40,19 @@ contains exercises and projects from Day 1 through Day 30.
 - Handling expected errors with `try`, `except`, `else`, and `finally`
 - Raising exceptions to reject invalid data
 - Reading, writing, and updating structured data with Python's `json` module
+- Building a flash-card interface that changes Canvas text and images
+- Loading language data with pandas and saving learning progress to CSV
 
 ## Featured projects
+
+### Flash Card Project - Day 31
+
+A French-to-English flash-card app built with Tkinter and pandas. Cards flip
+automatically after three seconds, and marking a word as known removes it from
+future sessions by saving the remaining words to a local CSV file.
+
+Navigate to [`Day 31/flash-card-project`](Day%2031/flash-card-project/) to see
+the project.
 
 ### Password Manager - Day 29
 
@@ -156,11 +167,11 @@ Navigate to [`Day 11/task`](Day%2011/task/) to see the project.
 The earlier folders contain projects such as a calculator, blind auction,
 Caesar cipher, Hangman, password generator, rock-paper-scissors, treasure
 island, and a tip calculator. Browse the [`Day 1`](Day%201/) through
-[`Day 30`](Day%2030/) folders to follow my progress.
+[`Day 31`](Day%2031/) folders to follow my progress.
 
 ## Dependencies
 
-Days 25 and 26 use pandas for CSV data analysis and DataFrame exercises.
+Days 25, 26, and 31 use pandas for CSV data analysis and DataFrame exercises.
 Install it from the repository root with:
 
 ```bash
