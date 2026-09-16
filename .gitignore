@@ -66,3 +66,7 @@ Day 30/json_revision_data.json
 
 # Generated Day 31 flash-card learning progress
 Day 31/flash-card-project/data/words_to_learn.csv
+
+# Private Day 32 email credentials and birthday data
+Day 32/password.txt
+Day 32/birthday-wisher-project/birthdays.csv
